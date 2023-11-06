@@ -1,2 +1,5 @@
-# Ignore all files with the .env extension
+# Ignore all files with the .env extension (enviromental file)
 *.env
+
+# Ignore all files with the .db extension (database file)
+*.db
