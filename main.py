@@ -4,6 +4,7 @@ import asyncio
 
 from dotenv import load_dotenv
 from aiogram import Bot, Dispatcher
+from database import createDatabase
 
 
 # Loading data from the .env file
@@ -19,6 +20,7 @@ dp = Dispatcher()
 
 # Define main function
 async def main():
+    createDatabase()
     await dp.start_polling(bot)
 
 if __name__ == '__main__':
