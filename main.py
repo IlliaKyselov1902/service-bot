@@ -1,6 +1,7 @@
 import logging
 import asyncio
 
+import database
 from loader import dp, bot
 
 # Set up logging
